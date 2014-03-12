@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="Graph search algorithms created&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/E/Checker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Graph.java" afterPath="$PROJECT_DIR$/src/Models/Graph.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/MinesGraphModel.java" afterPath="$PROJECT_DIR$/src/Models/MinesGraphModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -746,7 +745,11 @@
       <created>1394634407955</created>
       <updated>1394634407955</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Graph search algorithms created&#10;">
+      <created>1394634417918</created>
+      <updated>1394634417918</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -808,7 +811,8 @@
     <MESSAGE value="Tests changed" />
     <MESSAGE value="Main method for C checker added" />
     <MESSAGE value="Checker for problem D created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checker for problem D created" />
+    <MESSAGE value="Graph search algorithms created&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph search algorithms created&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

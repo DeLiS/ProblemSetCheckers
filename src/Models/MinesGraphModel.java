@@ -60,8 +60,6 @@ public class MinesGraphModel {
     private static void readNextMine(MinesGraphModel model, Scanner input) {
         int row = input.nextInt();
         int col = input.nextInt();
-        --row;
-        --col;
         model.matrix[row][col] = 1;
     }
 
