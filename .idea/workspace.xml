@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="G problem&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/G/in.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/G/out.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/G/Checker.java" afterPath="$PROJECT_DIR$/src/G/Checker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Friendship.java" afterPath="$PROJECT_DIR$/src/Models/Friendship.java" />
+    <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/H/Checker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/I/Checker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/J/Checker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/Edge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/Kruskal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/Pipes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/Synchrophasothron.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/H/in.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/I/in.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/H/out.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/I/out.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -92,6 +99,66 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/H/Checker.java" line="14" class="H.Checker" package="H">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Models/Pipes.java" line="30" class="Models.Pipes" package="Models">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Models/Kruskal.java" line="25" class="Models.Kruskal" package="Models">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Models/Kruskal.java" line="35" class="Models.Kruskal" package="Models">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -102,28 +169,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpiesSolution.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Models/SpiesSolution.java">
+      <file leaf-file-name="Kruskal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/Kruskal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="34" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CitiesRoadsSolution.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Models/CitiesRoadsSolution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="13" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-              <folding />
+            <state line="37" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="1020">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#231#237#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Checker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/F/Checker.java">
+        <entry file="file://$PROJECT_DIR$/src/H/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="198" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="12" column="2" selection-start="183" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,68 +193,80 @@
         </entry>
       </file>
       <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/F/in.txt">
+        <entry file="file://$PROJECT_DIR$/src/H/in.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="5" column="5" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Checker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/G/Checker.java">
+        <entry file="file://$PROJECT_DIR$/src/I/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+            <state line="12" column="25" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1091#1100#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/G/in.txt">
+        <entry file="file://$PROJECT_DIR$/src/I/in.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="6" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="out.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/G/out.txt">
+      <file leaf-file-name="Checker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/C/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="15" selection-end="15" vertical-scroll-proportion="0.17221418" vertical-offset="0" max-vertical-offset="691">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Friendship.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Models/Friendship.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="1258">
+            <state line="29" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="782">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#556#565#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisjointSetUnion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Models/DisjointSetUnion.java">
+      <file leaf-file-name="Checker.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/J/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="816">
-              <folding />
+            <state line="17" column="29" selection-start="379" selection-end="379" vertical-scroll-proportion="0.41823444" vertical-offset="0" max-vertical-offset="691">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="out.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/F/out.txt">
+        <entry file="file://$PROJECT_DIR$/src/I/out.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Synchrophasothron.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/Synchrophasothron.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="29" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="884">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="out.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/H/out.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
@@ -257,6 +330,17 @@
         <option value="$PROJECT_DIR$/src/G/in.txt" />
         <option value="$PROJECT_DIR$/src/G/Checker.java" />
         <option value="$PROJECT_DIR$/src/G/out.txt" />
+        <option value="$PROJECT_DIR$/src/Models/Edge.java" />
+        <option value="$PROJECT_DIR$/src/H/Checker.java" />
+        <option value="$PROJECT_DIR$/src/Models/Kruskal.java" />
+        <option value="$PROJECT_DIR$/src/Models/Pipes.java" />
+        <option value="$PROJECT_DIR$/src/H/out.txt" />
+        <option value="$PROJECT_DIR$/src/H/in.txt" />
+        <option value="$PROJECT_DIR$/src/Models/Synchrophasothron.java" />
+        <option value="$PROJECT_DIR$/src/I/Checker.java" />
+        <option value="$PROJECT_DIR$/src/I/out.txt" />
+        <option value="$PROJECT_DIR$/src/I/in.txt" />
+        <option value="$PROJECT_DIR$/src/J/Checker.java" />
       </list>
     </option>
   </component>
@@ -325,10 +409,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -344,39 +424,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="G" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="F" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="J" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,7 +465,7 @@
       <recent name="A" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckerG">
+  <component name="RunManager" selected="Application.CheckerI">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -703,7 +751,45 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="8">
+    <configuration default="false" name="CheckerH" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="H.Checker" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value=".\src\H\in.txt .\src\H\out.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Projects" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckerI" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="I.Checker" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value=".\src\I\in.txt .\src\I\out.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Projects" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Application.CheckerA" />
       <item index="1" class="java.lang.String" itemvalue="Application.CheckerB" />
       <item index="2" class="java.lang.String" itemvalue="Application.CheckerC" />
@@ -712,6 +798,8 @@
       <item index="5" class="java.lang.String" itemvalue="Application.CheckerE" />
       <item index="6" class="java.lang.String" itemvalue="Application.CheckerF" />
       <item index="7" class="java.lang.String" itemvalue="Application.CheckerG" />
+      <item index="8" class="java.lang.String" itemvalue="Application.CheckerH" />
+      <item index="9" class="java.lang.String" itemvalue="Application.CheckerI" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -850,7 +938,11 @@
       <created>1394639926650</created>
       <updated>1394639926650</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="G problem&#10;">
+      <created>1394640836663</created>
+      <updated>1394640836663</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -859,7 +951,7 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292797" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -877,7 +969,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -920,7 +1012,8 @@
     <MESSAGE value="workspace" />
     <MESSAGE value="F problem" />
     <MESSAGE value="G problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="G problem" />
+    <MESSAGE value="G problem&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="G problem&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -976,18 +1069,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/C/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="194" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="782">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1088" />
+        <state line="20" column="22" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1088">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#378#386#0" expanded="true" />
+            <element signature="e#627#647#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/D/Checker.java">
@@ -999,58 +1089,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/AbstractChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="25" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="1088">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/BreadthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <folding>
-            <element signature="e#190#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/ConnectionToVertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="61" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/DepthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
-          <folding>
-            <element signature="e#184#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="38" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="833">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="34" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="2516" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A/out.txt">
@@ -1103,22 +1144,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/SpiesSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="34" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/AbstractGraphSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="69" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1581">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/E/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="5" selection-start="190" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
@@ -1140,6 +1165,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/F/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="198" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/AbstractGraphSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="69" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.63965267" vertical-offset="255" max-vertical-offset="1581">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/DisjointSetUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="29" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="816">
@@ -1147,16 +1190,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/CitiesRoadsSolution.java">
+    <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="13" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+        <state line="61" column="34" selection-start="2044" selection-end="2044" vertical-scroll-proportion="1.4761215" vertical-offset="0" max-vertical-offset="2516">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/SpiesSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="34" selection-start="566" selection-end="566" vertical-scroll-proportion="0.4674385" vertical-offset="51" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="38" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.75397974" vertical-offset="142" max-vertical-offset="833">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Friendship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="1258">
+        <state line="19" column="39" selection-start="468" selection-end="468" vertical-scroll-proportion="-0.35311145" vertical-offset="567" max-vertical-offset="1258">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#497#498#0" expanded="true" />
@@ -1165,18 +1225,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/F/Checker.java">
+    <entry file="file://$PROJECT_DIR$/src/G/out.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="198" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state line="7" column="1" selection-start="15" selection-end="15" vertical-scroll-proportion="0.17221418" vertical-offset="0" max-vertical-offset="691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/G/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="81" selection-end="81" vertical-scroll-proportion="0.27062228" vertical-offset="0" max-vertical-offset="691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/DepthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="353" selection-end="353" vertical-scroll-proportion="0.31982633" vertical-offset="51" max-vertical-offset="901">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#184#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/CitiesRoadsSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="13" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.8118669" vertical-offset="408" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/BreadthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="361" selection-end="361" vertical-scroll-proportion="0.114327066" vertical-offset="159" max-vertical-offset="850">
+          <folding>
+            <element signature="e#190#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/G/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+        <state line="18" column="5" selection-start="241" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1091#1100#0" expanded="true" />
@@ -1184,17 +1283,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/G/in.txt">
+    <entry file="file://$PROJECT_DIR$/src/Models/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="6" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/AbstractChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/G/out.txt">
+    <entry file="file://$PROJECT_DIR$/src/Models/Pipes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="15" selection-end="15" vertical-scroll-proportion="0.17221418" vertical-offset="0" max-vertical-offset="691">
+        <state line="34" column="21" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/H/out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/H/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Kruskal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Synchrophasothron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/H/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="2" selection-start="183" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/I/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/I/out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/I/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="782">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/J/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="379" selection-end="379" vertical-scroll-proportion="0.41823444" vertical-offset="0" max-vertical-offset="691">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
