@@ -17,9 +17,15 @@ import java.util.Scanner;
  */
 public class MatrixGenerator {
     public static final String FOLDER_PREFIX = "t";
+    public static final String SPACE = " ";
+    public static final String NEW_LINE = "\n";
+    public static final String OUTPUT_FILE_NAME = "out.txt";
+    public static final String INPUT_FILE_NAME = "in.txt";
+    public static final String DOUBLE_BACK_SLASH = "\\";
+    public static final String UNDERSCORE = "_";
     private static Random random = new Random(System.currentTimeMillis());
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
 
         String outputFolder = args[0];
         int testsCount = Integer.parseInt(args[1]);
@@ -34,12 +40,56 @@ public class MatrixGenerator {
        for(int testNumber = 0; testNumber < testsCount; ++testNumber){
            Scanner scanner = getInputScanner(outputFolder, testNumber);
            MinesGraphModel model = MinesGraphModel.fromMatrix(scanner);
-           writeOutputList(model, testNumber);
+           writeOutputList(model, outputFolder, testNumber);
        }
     }
 
-    private static void writeOutputList(MinesGraphModel model, int testNumber) {
+    private static void writeOutputList(MinesGraphModel model,String outputFolder, int testNumber) throws IOException {
+        File file = createOutputFile(outputFolder, testNumber);
+        PrintWriter printWriter = new PrintWriter(file);
+        StringBuilder result = new StringBuilder();
 
+        addFirstLine(model, result);
+
+        List<int[]> pairs = model.getList();
+        for(int[] pair : pairs){
+            addPair(pair, result);
+        }
+        String output = result.toString();
+        printWriter.print(output);
+
+
+
+    }
+
+    private static void addPair(int[] pair, StringBuilder result) {
+        result.append(NEW_LINE);
+        result.append(pair[0]);
+        result.append(SPACE);
+        result.append(pair[1]);
+
+    }
+
+    private static void addFirstLine(MinesGraphModel model, StringBuilder result) {
+        result.append(model.getNumberOfRows());
+        result.append(SPACE);
+        result.append(model.getNumberOfColumns());
+        result.append(SPACE);
+        result.append(model.getNumberOfMines());
+    }
+
+    private static File createOutputFile(String outputFolder, int testNumber) throws IOException {
+        String outputFileName = getOutputFileName(outputFolder, testNumber);
+        File file = recreateFile(outputFileName);
+        return file;
+
+    }
+
+    private static String getOutputFileName(String outputFolder, int testNumber) {
+        String testFolderName = getFolderName(outputFolder, testNumber);
+        StringBuilder outputFileNameBuilder = new StringBuilder(testFolderName);
+        outputFileNameBuilder.append(DOUBLE_BACK_SLASH + OUTPUT_FILE_NAME);
+        return outputFileNameBuilder.toString();
     }
 
     private static Scanner getInputScanner(String outputFolder, int i) throws FileNotFoundException {
@@ -65,13 +115,13 @@ public class MatrixGenerator {
     private static void writeMatrix(int[][] ints, PrintWriter printWriter) {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(ints.length);
-        stringBuilder.append(" ");
+        stringBuilder.append(SPACE);
         stringBuilder.append(ints[0].length);
         for(int i = 0; i < ints.length; ++i){
-            stringBuilder.append("\n");
+            stringBuilder.append(NEW_LINE);
             for(int j = 0; j < ints[i].length; ++j){
                 if(j > 0){
-                    stringBuilder.append(" ");
+                    stringBuilder.append(SPACE);
                 }
                 stringBuilder.append(ints[i][j]);
             }
@@ -93,7 +143,7 @@ public class MatrixGenerator {
     private static File recreateFile(String fileName) throws IOException {
         File file = new File(fileName);
         if(file.exists()){
-            file.renameTo(new File(fileName + "_"));
+            file.renameTo(new File(fileName + UNDERSCORE));
         }
 
         file.createNewFile();
@@ -102,7 +152,7 @@ public class MatrixGenerator {
 
     private static String getInputFileName(String folderName) {
         StringBuilder fileNameBuilder = new StringBuilder(folderName);
-        fileNameBuilder.append("\\in." + FOLDER_PREFIX + "xt");
+        fileNameBuilder.append(DOUBLE_BACK_SLASH + INPUT_FILE_NAME);
         return fileNameBuilder.toString();
     }
 
@@ -116,7 +166,7 @@ public class MatrixGenerator {
     private static String getFolderName(String outputFolder, int i) {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(outputFolder);
-        stringBuilder.append("\\");
+        stringBuilder.append(DOUBLE_BACK_SLASH);
         stringBuilder.append(FOLDER_PREFIX);
         stringBuilder.append(i);
         return stringBuilder.toString().trim();

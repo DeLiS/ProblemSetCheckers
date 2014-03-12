@@ -140,7 +140,7 @@ public class MinesGraphModel {
         return getNumberOfMines() == other.getNumberOfMines();
     }
 
-    private int getNumberOfMines() {
+    public int getNumberOfMines() {
         return numberOfMines;
     }
 
@@ -148,11 +148,11 @@ public class MinesGraphModel {
         return getNumberOfColumns() == other.getNumberOfColumns() && getNumberOfRows() == other.getNumberOfRows();
     }
 
-    private int getNumberOfRows() {
+    public int getNumberOfRows() {
         return m;
     }
 
-    private int getNumberOfColumns() {
+    public int getNumberOfColumns() {
         return n;
     }
 
