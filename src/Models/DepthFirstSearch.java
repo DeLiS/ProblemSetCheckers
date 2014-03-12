@@ -13,6 +13,10 @@ public class DepthFirstSearch extends AbstractGraphSearch {
 
     }
 
+    public DepthFirstSearch(Graph graph, int start){
+        super(graph, start);
+    }
+
     @Override
     public void addVertexToSet(int vertex) {
         stack.add(vertex);
@@ -34,7 +38,6 @@ public class DepthFirstSearch extends AbstractGraphSearch {
             int room = adjacent[i];
             if (!visited(room)) {
                 stack.add(room);
-                addToPath(room);
             }
         }
     }

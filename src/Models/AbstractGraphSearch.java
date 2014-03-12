@@ -24,15 +24,25 @@ public abstract class AbstractGraphSearch {
 
     }
 
+    public AbstractGraphSearch(Graph graph, int start){
+        numberOfVertexes = graph.getNumberOfVertexes();
+        used = new boolean[numberOfVertexes];
+        startRoom = start;
+        path = new ArrayList<Integer>(numberOfVertexes);
+        this.graph = graph;
+    }
+
     public void run(){
         addVertexToSet(startRoom);
-        path.add(startRoom);
-        used[startRoom] = true;
         while(!setIsEmpty()){
             int currentRoom = getNextVertex();
-            int[] adjacent = graph.adjacentVertexes(currentRoom);
-            Arrays.sort(adjacent);
-            addSortedAdjacentVertexesToSet(adjacent);
+            if(!visited(currentRoom)){
+                addToPath(currentRoom);
+                used[currentRoom] = true;
+                int[] adjacent = graph.adjacentVertexes(currentRoom);
+                Arrays.sort(adjacent);
+                addSortedAdjacentVertexesToSet(adjacent);
+            }
 
         }
     }
@@ -73,7 +83,7 @@ public abstract class AbstractGraphSearch {
     public abstract boolean setIsEmpty();
     public abstract int getNextVertex();
     protected abstract void addSortedAdjacentVertexesToSet(int[] adjacent);
-    protected void addToPath(int room){
+    private void addToPath(int room){
         path.add(room);
     }
 }

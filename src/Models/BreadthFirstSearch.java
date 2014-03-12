@@ -10,7 +10,9 @@ public class BreadthFirstSearch extends AbstractGraphSearch {
 
     public BreadthFirstSearch(Scanner input) {
         super(input);
-
+    }
+    public BreadthFirstSearch(Graph graph, int start){
+       super(graph, start);
     }
 
     @Override
@@ -30,11 +32,10 @@ public class BreadthFirstSearch extends AbstractGraphSearch {
 
     @Override
     protected void addSortedAdjacentVertexesToSet(int[] adjacent) {
-        for (int i = 0; i <= adjacent.length; i++) {
+        for (int i = 0; i < adjacent.length; i++) {
             int room = adjacent[i];
             if (!visited(room)) {
                 queue.add(room);
-                addToPath(room);
             }
         }
     }
