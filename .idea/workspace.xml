@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/Graph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Vertex.java" afterPath="$PROJECT_DIR$/src/Models/Vertex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -596,7 +595,11 @@
       <created>1394626208283</created>
       <updated>1394626208283</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="getAdjacentVertexes  created">
+      <created>1394627275765</created>
+      <updated>1394627275765</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -650,7 +653,8 @@
     <MESSAGE value="Checker for problem C created" />
     <MESSAGE value="ConnectionToVertex class created" />
     <MESSAGE value="way of keeping adjacent vertexes changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="way of keeping adjacent vertexes changed" />
+    <MESSAGE value="getAdjacentVertexes  created" />
+    <option name="LAST_COMMIT_MESSAGE" value="getAdjacentVertexes  created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
