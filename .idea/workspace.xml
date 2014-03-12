@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/I/Checker.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/J/Checker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/I/in.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/I/out.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -939,7 +936,11 @@
       <created>1394650498045</created>
       <updated>1394650498045</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="I problem">
+      <created>1394650514104</created>
+      <updated>1394650514104</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -985,7 +986,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Checker for problem B created" />
     <MESSAGE value="typo fixed&#10;" />
     <MESSAGE value="tests" />
     <MESSAGE value="working directories and command line args changed from absolute to relative&#10;" />
@@ -1010,7 +1010,8 @@
     <MESSAGE value="G problem" />
     <MESSAGE value="G problem&#10;" />
     <MESSAGE value="H problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="H problem" />
+    <MESSAGE value="I problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="I problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
