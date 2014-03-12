@@ -12,10 +12,21 @@ public class Vertex implements Comparable<Vertex> {
     }
 
     private int orderNumberofVertex;
+
+    public List<Vertex> getAdjacentVertexes() {
+        List<Vertex> result = new LinkedList<Vertex>();
+        for(ConnectionToVertex connectionToVertex : adjacentVertexes){
+            result.add(connectionToVertex.getVertex());
+        }
+        return result;
+    }
+
     private List<ConnectionToVertex> adjacentVertexes = new LinkedList<ConnectionToVertex>();
+
     public Vertex(int orderNumberofVertex){
         this.orderNumberofVertex = orderNumberofVertex;
     }
+
     public void connect(Vertex vertex){
         ConnectionToVertex connectionToVertex = new ConnectionToVertex(vertex);
         if(!adjacentVertexes.contains(connectionToVertex)){
