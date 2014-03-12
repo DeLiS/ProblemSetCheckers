@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/F/Checker.java" />
+    <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="F problem">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/G/Checker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/CitiesRoadsSolution.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/DisjointSetUnion.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/Friendship.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/F/in.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/F/out.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -808,7 +804,11 @@
       <created>1394634482196</created>
       <updated>1394634482196</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="F problem">
+      <created>1394639915561</created>
+      <updated>1394639915561</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -876,7 +876,8 @@
     <MESSAGE value="Vertex numeration changed from 1-N to 0-(N-1)" />
     <MESSAGE value="Graph get number of vertexes method created&#10;" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="F problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="F problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
