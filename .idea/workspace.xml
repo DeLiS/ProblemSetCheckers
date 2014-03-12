@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="Graph search algorithms created&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Graph.java" afterPath="$PROJECT_DIR$/src/Models/Graph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/MinesGraphModel.java" afterPath="$PROJECT_DIR$/src/Models/MinesGraphModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -749,7 +748,11 @@
       <created>1394634417918</created>
       <updated>1394634417918</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Vertex numeration changed from 1-N to 0-(N-1)">
+      <created>1394634450899</created>
+      <updated>1394634450899</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -812,7 +815,8 @@
     <MESSAGE value="Main method for C checker added" />
     <MESSAGE value="Checker for problem D created" />
     <MESSAGE value="Graph search algorithms created&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph search algorithms created&#10;" />
+    <MESSAGE value="Vertex numeration changed from 1-N to 0-(N-1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vertex numeration changed from 1-N to 0-(N-1)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

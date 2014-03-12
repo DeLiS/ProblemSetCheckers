@@ -36,4 +36,8 @@ public class Graph {
         }
         return result;
     }
+
+    public int getNumberOfVertexes() {
+        return numberOfVertexes;
+    }
 }
