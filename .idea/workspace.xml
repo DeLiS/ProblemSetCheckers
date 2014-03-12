@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/C/Checker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/ConnectionToVertex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Vertex.java" afterPath="$PROJECT_DIR$/src/Models/Vertex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -94,12 +95,24 @@
       <file leaf-file-name="Vertex.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Models/Vertex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="40" selection-start="613" selection-end="613" vertical-scroll-proportion="0.6150507" vertical-offset="0" max-vertical-offset="901">
+            <state line="13" column="35" selection-start="283" selection-end="283" vertical-scroll-proportion="0.18813314" vertical-offset="91" max-vertical-offset="935">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#304#312#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#355#375#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionToVertex.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/ConnectionToVertex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="61" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/A/Checker.java" />
         <option value="$PROJECT_DIR$/src/C/Checker.java" />
         <option value="$PROJECT_DIR$/src/Models/DepthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/Models/ConnectionToVertex.java" />
         <option value="$PROJECT_DIR$/src/Models/Vertex.java" />
       </list>
     </option>
@@ -548,7 +562,11 @@
       <created>1394625740865</created>
       <updated>1394625740865</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Checker for problem C created">
+      <created>1394625758759</created>
+      <updated>1394625758759</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -599,7 +617,8 @@
     <MESSAGE value="working directories and command line args changed from absolute to relative&#10;" />
     <MESSAGE value="Graph vertex class created" />
     <MESSAGE value="DepthFirstSearch class created&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="DepthFirstSearch class created&#10;" />
+    <MESSAGE value="Checker for problem C created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checker for problem C created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -665,14 +684,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/ConnectionToVertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="61" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="40" selection-start="613" selection-end="613" vertical-scroll-proportion="0.6150507" vertical-offset="0" max-vertical-offset="901">
+        <state line="13" column="35" selection-start="283" selection-end="283" vertical-scroll-proportion="0.18813314" vertical-offset="91" max-vertical-offset="935">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#304#312#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#355#375#0" expanded="true" />
           </folding>
         </state>
       </provider>
