@@ -4,7 +4,6 @@
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="Graph search algorithms created&#10;">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/D/Checker.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/E/Checker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/SpiesSolution.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/C/in.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/D/in.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/E/in.txt" />
@@ -741,7 +740,11 @@
       <created>1394634271324</created>
       <updated>1394634271324</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Solution for problem E">
+      <created>1394634326549</created>
+      <updated>1394634326549</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -799,7 +802,8 @@
     <MESSAGE value="Graph created" />
     <MESSAGE value="Graph search algorithms created" />
     <MESSAGE value="Search algorithms changed&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search algorithms changed&#10;" />
+    <MESSAGE value="Solution for problem E" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for problem E" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
