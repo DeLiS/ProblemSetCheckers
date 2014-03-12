@@ -4,7 +4,6 @@
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="Graph search algorithms created&#10;">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/D/Checker.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/E/Checker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C/Checker.java" afterPath="$PROJECT_DIR$/src/C/Checker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Graph.java" afterPath="$PROJECT_DIR$/src/Models/Graph.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/MinesGraphModel.java" afterPath="$PROJECT_DIR$/src/Models/MinesGraphModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -740,7 +739,11 @@
       <created>1394634354583</created>
       <updated>1394634354583</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Main method for C checker added">
+      <created>1394634388644</created>
+      <updated>1394634388644</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -800,7 +803,8 @@
     <MESSAGE value="Search algorithms changed&#10;" />
     <MESSAGE value="Solution for problem E" />
     <MESSAGE value="Tests changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests changed" />
+    <MESSAGE value="Main method for C checker added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main method for C checker added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
