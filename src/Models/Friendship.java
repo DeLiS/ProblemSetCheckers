@@ -16,6 +16,11 @@ public class Friendship {
     private final int QUERY_CODE = 20;
 
     private final DisjointSetUnion dsu;
+
+    public List<Integer> getAnswers() {
+        return answers;
+    }
+
     private final List<Integer> answers = new LinkedList<Integer>();
 
     public Friendship(Scanner input) throws Exception {
