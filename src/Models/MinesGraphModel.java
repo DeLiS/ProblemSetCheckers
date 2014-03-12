@@ -1,6 +1,8 @@
 package Models;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -29,6 +31,16 @@ public class MinesGraphModel {
         readList(model, input);
         checkEndOfInput(input);
         return model;
+    }
+
+    public  List<int[]> getList(){
+        List<int[]> result = new ArrayList<int[]>(numberOfMines);
+        for(int i = 0; i < n; ++i){
+            for(int j = 0; j < m; ++j){
+                result.add(new int[]{i,j});
+            }
+        }
+        return result;
     }
 
     private static void readK(Scanner input, MinesGraphModel model) throws Exception {
