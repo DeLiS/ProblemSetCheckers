@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A/Checker.java" afterPath="$PROJECT_DIR$/src/A/Checker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/B/Checker.java" afterPath="$PROJECT_DIR$/src/B/Checker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -487,7 +486,11 @@
       <created>1394622633423</created>
       <updated>1394622633423</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Checker for problem B created">
+      <created>1394623075722</created>
+      <updated>1394623075722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -532,7 +535,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Wrong assignment to a symmetrical square fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrong assignment to a symmetrical square fixed" />
+    <MESSAGE value="Checker for problem B created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checker for problem B created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

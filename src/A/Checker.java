@@ -27,9 +27,9 @@ public class Checker extends AbstractChecker {
 
     @Override
     public boolean checkIfAnswerIsCorrect(Scanner inputScanner, Scanner outputScanner) throws Exception{
-        MinesGraphModel fromMatirx = MinesGraphModel.fromMatrix(inputScanner);
+        MinesGraphModel fromMatrix = MinesGraphModel.fromMatrix(inputScanner);
         MinesGraphModel fromList = MinesGraphModel.fromList(outputScanner);
-        boolean result = fromMatirx.equals(fromList);
+        boolean result = fromMatrix.equals(fromList);
         return result;
     }
 }
