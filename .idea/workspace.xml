@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/C/Checker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/DepthFirstSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -545,7 +544,11 @@
       <created>1394625714250</created>
       <updated>1394625714250</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DepthFirstSearch class created&#10;">
+      <created>1394625740865</created>
+      <updated>1394625740865</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -595,7 +598,8 @@
     <MESSAGE value="tests" />
     <MESSAGE value="working directories and command line args changed from absolute to relative&#10;" />
     <MESSAGE value="Graph vertex class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph vertex class created" />
+    <MESSAGE value="DepthFirstSearch class created&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="DepthFirstSearch class created&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
