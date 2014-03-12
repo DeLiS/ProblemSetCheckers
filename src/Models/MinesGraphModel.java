@@ -62,7 +62,7 @@ public class MinesGraphModel {
         int col = input.nextInt();
         --row;
         --col;
-        model.matrix[row][col] = model.matrix[col][row] = 1;
+        model.matrix[row][col] = 1;
     }
 
     private static void readMatrixAndCalcMines(MinesGraphModel model, Scanner input) throws Exception {
@@ -73,7 +73,7 @@ public class MinesGraphModel {
                 if(value == 1){
                     model.numberOfMines++;
                 }
-                model.matrix[i][j] = model.matrix[j][i] = value;
+                model.matrix[i][j] = value;
             }
         }
     }
