@@ -5,35 +5,35 @@ import java.util.*;
 /**
  * Created by Denis on 12.03.14.
  */
-public class DepthFirstSearch extends AbstractGraphSearch {
+public class BreadthFirstSearch extends AbstractGraphSearch {
+    private Queue<Integer> queue = new LinkedList<Integer>();
 
-    private Stack<Integer> stack = new Stack<Integer>();
-    public DepthFirstSearch(Scanner input) {
+    public BreadthFirstSearch(Scanner input) {
         super(input);
 
     }
 
     @Override
     public void addVertexToSet(int vertex) {
-        stack.add(vertex);
+        queue.add(vertex);
     }
 
     @Override
     public boolean setIsEmpty() {
-        return stack.isEmpty();
+        return queue.isEmpty();
     }
 
     @Override
     public int getNextVertex() {
-        return stack.pop();
+        return queue.poll();
     }
 
     @Override
     protected void addSortedAdjacentVertexesToSet(int[] adjacent) {
-        for (int i = adjacent.length - 1; i >= 0; i--) {
+        for (int i = 0; i <= adjacent.length; i++) {
             int room = adjacent[i];
             if (!visited(room)) {
-                stack.add(room);
+                queue.add(room);
                 addToPath(room);
             }
         }
@@ -41,4 +41,3 @@ public class DepthFirstSearch extends AbstractGraphSearch {
 
 
 }
-

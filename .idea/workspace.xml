@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/Graph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/AbstractGraphSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/BreadthFirstSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C/Checker.java" afterPath="$PROJECT_DIR$/src/C/Checker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/DepthFirstSearch.java" afterPath="$PROJECT_DIR$/src/Models/DepthFirstSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -67,10 +70,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Checker.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Checker.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/C/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="42" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="21" column="15" selection-start="590" selection-end="618" vertical-scroll-proportion="0.5166426" vertical-offset="0" max-vertical-offset="691">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,11 +84,33 @@
       <file leaf-file-name="DepthFirstSearch.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/DepthFirstSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+            <state line="38" column="9" selection-start="624" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+              <folding>
+                <element signature="e#184#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BreadthFirstSearch.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/BreadthFirstSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="5" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+              <folding>
+                <element signature="e#190#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractGraphSearch.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/AbstractGraphSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="5" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.0" vertical-offset="652" max-vertical-offset="1445">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#1777#1778#0" expanded="true" />
+                <element signature="e#1816#1817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vertex.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Vertex.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/Vertex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="22" selection-start="549" selection-end="549" vertical-scroll-proportion="0.31982633" vertical-offset="119" max-vertical-offset="1122">
+            <state line="20" column="22" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1122">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
@@ -164,11 +189,13 @@
         <option value="$PROJECT_DIR$/src/Models/MinesGraphModel.java" />
         <option value="$PROJECT_DIR$/src/B/Checker.java" />
         <option value="$PROJECT_DIR$/src/A/Checker.java" />
-        <option value="$PROJECT_DIR$/src/C/Checker.java" />
-        <option value="$PROJECT_DIR$/src/Models/DepthFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/Models/ConnectionToVertex.java" />
         <option value="$PROJECT_DIR$/src/Models/Vertex.java" />
         <option value="$PROJECT_DIR$/src/Models/Graph.java" />
+        <option value="$PROJECT_DIR$/src/C/Checker.java" />
+        <option value="$PROJECT_DIR$/src/Models/DepthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/Models/AbstractGraphSearch.java" />
+        <option value="$PROJECT_DIR$/src/Models/BreadthFirstSearch.java" />
       </list>
     </option>
   </component>
@@ -599,7 +626,11 @@
       <created>1394627275765</created>
       <updated>1394627275765</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Graph created">
+      <created>1394627287915</created>
+      <updated>1394627287915</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -654,7 +685,8 @@
     <MESSAGE value="ConnectionToVertex class created" />
     <MESSAGE value="way of keeping adjacent vertexes changed" />
     <MESSAGE value="getAdjacentVertexes  created" />
-    <option name="LAST_COMMIT_MESSAGE" value="getAdjacentVertexes  created" />
+    <MESSAGE value="Graph created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -693,41 +725,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/C/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/ConnectionToVertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="61" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <folding>
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="765">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/DepthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -741,13 +744,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="549" selection-end="549" vertical-scroll-proportion="0.31982633" vertical-offset="119" max-vertical-offset="1122">
+        <state line="20" column="22" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1122">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#245#246#0" expanded="true" />
             <element signature="e#378#386#0" expanded="true" />
             <element signature="e#627#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="22" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="765">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/AbstractGraphSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="5" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.0" vertical-offset="703" max-vertical-offset="1445">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/BreadthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="5" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <folding>
+            <element signature="e#190#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/DepthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="9" selection-start="624" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding>
+            <element signature="e#184#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="15" selection-start="590" selection-end="618" vertical-scroll-proportion="0.5166426" vertical-offset="0" max-vertical-offset="691">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
