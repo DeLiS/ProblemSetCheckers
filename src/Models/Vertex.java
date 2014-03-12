@@ -7,23 +7,25 @@ import java.util.List;
  * Created by Denis on 12.03.14.
  */
 public class Vertex implements Comparable<Vertex> {
-    public int getNumber() {
-        return number;
+    public int getOrderNumberofVertex() {
+        return orderNumberofVertex;
     }
 
-    private int number;
-    private List<Vertex> adjacentVertexes = new LinkedList<Vertex>();
-    public Vertex(int number){
-        this.number = number;
+    private int orderNumberofVertex;
+    private List<ConnectionToVertex> adjacentVertexes = new LinkedList<ConnectionToVertex>();
+    public Vertex(int orderNumberofVertex){
+        this.orderNumberofVertex = orderNumberofVertex;
     }
     public void connect(Vertex vertex){
-        if(!adjacentVertexes.contains(vertex)){
-            adjacentVertexes.add(vertex);
+        ConnectionToVertex connectionToVertex = new ConnectionToVertex(vertex);
+        if(!adjacentVertexes.contains(connectionToVertex)){
+            adjacentVertexes.add(connectionToVertex);
         }
     }
 
     public void disconnect(Vertex vertex){
-        adjacentVertexes.remove(vertex);
+        ConnectionToVertex connectionToVertex = new ConnectionToVertex(vertex);
+        adjacentVertexes.remove(connectionToVertex);
     }
 
     @Override
@@ -35,13 +37,13 @@ public class Vertex implements Comparable<Vertex> {
             return false;
         }
         Vertex other = (Vertex) otherObject;
-        return this.getNumber() == other.getNumber();
+        return this.getOrderNumberofVertex() == other.getOrderNumberofVertex();
     }
 
     @Override
     public int compareTo(Vertex other) {
-        Integer thisNumber = this.getNumber();
-        Integer otherNumber = other.getNumber();
+        Integer thisNumber = this.getOrderNumberofVertex();
+        Integer otherNumber = other.getOrderNumberofVertex();
         return thisNumber.compareTo(otherNumber);
     }
 }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/ConnectionToVertex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Vertex.java" afterPath="$PROJECT_DIR$/src/Models/Vertex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -566,7 +565,11 @@
       <created>1394625758759</created>
       <updated>1394625758759</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ConnectionToVertex class created">
+      <created>1394626159853</created>
+      <updated>1394626159853</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -618,7 +621,8 @@
     <MESSAGE value="Graph vertex class created" />
     <MESSAGE value="DepthFirstSearch class created&#10;" />
     <MESSAGE value="Checker for problem C created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checker for problem C created" />
+    <MESSAGE value="ConnectionToVertex class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="ConnectionToVertex class created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
