@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/MinesGraphModel.java" afterPath="$PROJECT_DIR$/src/Models/MinesGraphModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A/Checker.java" afterPath="$PROJECT_DIR$/src/A/Checker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/B/Checker.java" afterPath="$PROJECT_DIR$/src/B/Checker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -71,7 +71,18 @@
       <file leaf-file-name="Checker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/A/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="18" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+            <state line="31" column="35" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Checker.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/B/Checker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="35" selection-start="693" selection-end="693" vertical-scroll-proportion="0.54124457" vertical-offset="0" max-vertical-offset="691">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,22 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinesGraphModel.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MinesGraphModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="36" selection-start="2560" selection-end="2560" vertical-scroll-proportion="0.7134588" vertical-offset="765" max-vertical-offset="2550">
+            <state line="30" column="14" selection-start="929" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2550">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Checker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/B/Checker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="28" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -120,6 +120,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="DeLiS" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -129,10 +134,10 @@
         <option value="$PROJECT_DIR$/src/Models/Model.java" />
         <option value="$PROJECT_DIR$/src/A/MinesGraphModel.java" />
         <option value="$PROJECT_DIR$/src/common/Checker.java" />
-        <option value="$PROJECT_DIR$/src/A/Checker.java" />
-        <option value="$PROJECT_DIR$/src/B/Checker.java" />
         <option value="$PROJECT_DIR$/src/common/AbstractChecker.java" />
         <option value="$PROJECT_DIR$/src/Models/MinesGraphModel.java" />
+        <option value="$PROJECT_DIR$/src/B/Checker.java" />
+        <option value="$PROJECT_DIR$/src/A/Checker.java" />
       </list>
     </option>
   </component>
@@ -478,6 +483,11 @@
       <created>1394610848332</created>
       <updated>1394610848332</updated>
     </task>
+    <task id="LOCAL-00001" summary="Wrong assignment to a symmetrical square fixed">
+      <created>1394622633423</created>
+      <updated>1394622633423</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -501,7 +511,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -521,6 +531,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Wrong assignment to a symmetrical square fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrong assignment to a symmetrical square fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -530,12 +542,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/B/Checker.java">
+    <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="30" column="14" selection-start="929" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2550">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -552,17 +562,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="18" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+        <state line="31" column="35" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
+    <entry file="file://$PROJECT_DIR$/src/B/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="36" selection-start="2560" selection-end="2560" vertical-scroll-proportion="0.7134588" vertical-offset="765" max-vertical-offset="2550">
-          <folding />
+        <state line="22" column="35" selection-start="693" selection-end="693" vertical-scroll-proportion="0.54124457" vertical-offset="0" max-vertical-offset="691">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
