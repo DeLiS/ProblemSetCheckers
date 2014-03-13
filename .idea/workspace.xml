@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/TestsFolder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/MatrixGenerator.java" afterPath="$PROJECT_DIR$/src/TestGenerators/MatrixGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/MinesGraphModel.java" afterPath="$PROJECT_DIR$/src/Models/MinesGraphModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -193,7 +187,7 @@
       <file leaf-file-name="AtestsGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1122">
+            <state line="37" column="29" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="1122">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -223,10 +217,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestsFolder.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestsFolder.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/TestsFolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1853">
+            <state line="65" column="42" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.1968162" vertical-offset="969" max-vertical-offset="1853">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -234,10 +228,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinesGraphModel.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MinesGraphModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="0" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.72648335" vertical-offset="1300" max-vertical-offset="2788">
+            <state line="109" column="0" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="2788">
               <folding>
                 <element signature="e#4982#4983#0" expanded="true" />
                 <element signature="e#5017#5018#0" expanded="true" />
@@ -1044,7 +1038,11 @@
       <created>1394664183850</created>
       <updated>1394664183850</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Test generator for problems A and B&#10;">
+      <created>1394670986489</created>
+      <updated>1394670986489</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1473,20 +1471,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGenerators/MatrixGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="-6.6153846" vertical-offset="253" max-vertical-offset="918">
+        <state line="109" column="0" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="2788">
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGenerators/TestsFolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="1853">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4982#4983#0" expanded="true" />
+            <element signature="e#5017#5018#0" expanded="true" />
+            <element signature="e#5056#5057#0" expanded="true" />
+            <element signature="e#5094#5095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1502,7 +1494,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1122">
+        <state line="37" column="29" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="1122">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1518,14 +1510,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/MatrixGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.72648335" vertical-offset="1300" max-vertical-offset="2788">
+        <state line="25" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="-6.6153846" vertical-offset="253" max-vertical-offset="918">
           <folding>
-            <element signature="e#4982#4983#0" expanded="true" />
-            <element signature="e#5017#5018#0" expanded="true" />
-            <element signature="e#5056#5057#0" expanded="true" />
-            <element signature="e#5094#5095#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/TestsFolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="42" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.1968162" vertical-offset="969" max-vertical-offset="1853">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
