@@ -24,9 +24,7 @@ public abstract  class AbstractTestGenerator {
 
     protected void generateOneTest(int testNo) throws Exception {
         createInput(testsFolder.getWriterForTestInputNo(testNo));
-        createOutputFromInput(testsFolder.getScannerForTestInputNo(testNo), testsFolder.getWriterForTestOutputNo(testNo));
     }
 
-    protected abstract void createOutputFromInput(Scanner inputScanner, PrintWriter outputWriter) throws Exception;
-    protected abstract void createInput(PrintWriter inputWriter);
+    protected abstract void createInput(PrintWriter inputWriter) throws Exception;
 }

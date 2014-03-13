@@ -29,15 +29,13 @@ public class TestsFolder {
         for(int i = 0; i < testsCount; ++i){
             String folder = getAbsoluteNameNameOfTestSubfolderNo(i);
             makeSureThatExistsFolder(folder);
-            recreateInputAndOutputFilesForTest(i);
+            recreateInputForTest(i);
         }
     }
 
-    public void recreateInputAndOutputFilesForTest(int i) throws IOException {
+    public void recreateInputForTest(int i) throws IOException {
         File input = getInputFileForTestNo(i);
-        File output = getOutputFileForTestNo(i);
         recreate(input);
-        recreate(output);
 
     }
 

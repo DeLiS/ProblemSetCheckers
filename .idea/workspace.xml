@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/BtestsGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java" afterPath="$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java" afterPath="$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" afterPath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/TestsFolder.java" afterPath="$PROJECT_DIR$/src/TestGenerators/TestsFolder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -176,10 +182,8 @@
       <file leaf-file-name="MatrixGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/MatrixGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="-6.6153846" vertical-offset="253" max-vertical-offset="918">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="25" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="918">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,7 +191,27 @@
       <file leaf-file-name="AtestsGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="1122">
+            <state line="23" column="5" selection-start="345" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BtestsGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestGenerators/BtestsGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="25" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CTestsGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,10 +222,8 @@
       <file leaf-file-name="InputOutputFormatter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="952">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="39" column="0" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="952">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -209,10 +231,8 @@
       <file leaf-file-name="AbstractTestGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="23" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="25" column="65" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -220,23 +240,9 @@
       <file leaf-file-name="TestsFolder.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/TestsFolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="42" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.1968162" vertical-offset="969" max-vertical-offset="1853">
+            <state line="37" column="24" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.8364689" vertical-offset="51" max-vertical-offset="1819">
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinesGraphModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="0" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="2788">
-              <folding>
-                <element signature="e#4982#4983#0" expanded="true" />
-                <element signature="e#5017#5018#0" expanded="true" />
-                <element signature="e#5056#5057#0" expanded="true" />
-                <element signature="e#5094#5095#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -260,8 +266,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Models/Vertex.java" />
-        <option value="$PROJECT_DIR$/src/C/Checker.java" />
         <option value="$PROJECT_DIR$/src/C/in.txt" />
         <option value="$PROJECT_DIR$/src/C/out.txt" />
         <option value="$PROJECT_DIR$/src/D/Checker.java" />
@@ -304,13 +308,15 @@
         <option value="$PROJECT_DIR$/src/J/Checker.java" />
         <option value="$PROJECT_DIR$/src/J/out.txt" />
         <option value="$PROJECT_DIR$/src/TestGenerators/CopyAndReverseInOut.java" />
-        <option value="$PROJECT_DIR$/src/TestGenerators/TestsFolder.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/MatrixGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/TestGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
-        <option value="$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java" />
         <option value="$PROJECT_DIR$/src/Models/MinesGraphModel.java" />
+        <option value="$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java" />
+        <option value="$PROJECT_DIR$/src/TestGenerators/BtestsGenerator.java" />
+        <option value="$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java" />
+        <option value="$PROJECT_DIR$/src/TestGenerators/TestsFolder.java" />
       </list>
     </option>
   </component>
@@ -346,7 +352,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -436,6 +441,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,7 +481,7 @@
       <recent name="A" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AtestsGenerator">
+  <component name="RunManager" selected="Application.BtestsGenerator">
     <configuration default="false" name="MatrixGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestGenerators.MatrixGenerator" />
       <option name="VM_PARAMETERS" value="" />
@@ -526,6 +532,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -551,19 +570,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -853,7 +859,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="13">
+    <configuration default="false" name="BtestsGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestGenerators.BtestsGenerator" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Denis\Desktop\Задачи\Tests\B 10 1000 1000" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Projects" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="14">
       <item index="0" class="java.lang.String" itemvalue="Application.CheckerA" />
       <item index="1" class="java.lang.String" itemvalue="Application.CheckerB" />
       <item index="2" class="java.lang.String" itemvalue="Application.CheckerC" />
@@ -864,9 +886,10 @@
       <item index="7" class="java.lang.String" itemvalue="Application.CheckerG" />
       <item index="8" class="java.lang.String" itemvalue="Application.CheckerH" />
       <item index="9" class="java.lang.String" itemvalue="Application.CheckerJ" />
-      <item index="10" class="java.lang.String" itemvalue="Application.MatrixGenerator" />
-      <item index="11" class="java.lang.String" itemvalue="Application.CopyAndReverseInOut" />
-      <item index="12" class="java.lang.String" itemvalue="Application.AtestsGenerator" />
+      <item index="10" class="java.lang.String" itemvalue="Application.CopyAndReverseInOut" />
+      <item index="11" class="java.lang.String" itemvalue="Application.AtestsGenerator" />
+      <item index="12" class="java.lang.String" itemvalue="Application.MatrixGenerator" />
+      <item index="13" class="java.lang.String" itemvalue="Application.BtestsGenerator" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -1046,7 +1069,11 @@
       <created>1394671108659</created>
       <updated>1394671108659</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Test generator for problems A and B&#10;">
+      <created>1394671112431</created>
+      <updated>1394671112431</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1055,11 +1082,11 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39943874" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1076,8 +1103,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1132,22 +1159,6 @@
     <option name="showOnlyWarnings" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/D/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="229" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="799">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/ConnectionToVertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="61" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/A/out.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="3" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
@@ -1207,25 +1218,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/F/out.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
-          <folding />
-        </state>
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/F/in.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="6" column="3" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/F/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="198" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="17" column="5" selection-start="198" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/DisjointSetUnion.java">
@@ -1265,16 +1268,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/G/out.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="15" selection-end="15" vertical-scroll-proportion="0.17221418" vertical-offset="0" max-vertical-offset="691">
-          <folding />
-        </state>
+        <state line="7" column="1" selection-start="15" selection-end="15" vertical-scroll-proportion="0.17221418" vertical-offset="0" max-vertical-offset="691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/G/in.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="81" selection-end="81" vertical-scroll-proportion="0.27062228" vertical-offset="0" max-vertical-offset="691">
-          <folding />
-        </state>
+        <state line="11" column="6" selection-start="81" selection-end="81" vertical-scroll-proportion="0.27062228" vertical-offset="0" max-vertical-offset="691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/DepthFirstSearch.java">
@@ -1304,21 +1303,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="27" column="13" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/G/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="241" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1091#1100#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="18" column="5" selection-start="241" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Edge.java">
@@ -1353,16 +1343,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/H/out.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/H/in.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="5" column="5" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Synchrophasothron.java">
@@ -1387,9 +1373,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/I/out.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
-          <folding />
-        </state>
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/lang/Integer.java">
@@ -1408,18 +1392,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/I/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="197" selection-end="417" vertical-scroll-proportion="0.2952243" vertical-offset="0" max-vertical-offset="731">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="12" column="0" selection-start="197" selection-end="417" vertical-scroll-proportion="0.2952243" vertical-offset="0" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/I/in.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
-          <folding />
-        </state>
+        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/C/Checker.java">
@@ -1452,16 +1430,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/J/in.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="51" selection-end="51" vertical-scroll-proportion="0.14761215" vertical-offset="0" max-vertical-offset="691">
-          <folding />
-        </state>
+        <state line="6" column="7" selection-start="51" selection-end="51" vertical-scroll-proportion="0.14761215" vertical-offset="0" max-vertical-offset="691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/J/out.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
-          <folding />
-        </state>
+        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Tunnels.java">
@@ -1475,48 +1449,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="2788">
-          <folding>
-            <element signature="e#4982#4983#0" expanded="true" />
-            <element signature="e#5017#5018#0" expanded="true" />
-            <element signature="e#5056#5057#0" expanded="true" />
-            <element signature="e#5094#5095#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="1122">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="952">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="39" column="0" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="952">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/MatrixGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="-6.6153846" vertical-offset="253" max-vertical-offset="918">
+        <state line="25" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="65" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="345" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/MinesGraphModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="0" selection-start="3636" selection-end="3636" vertical-scroll-proportion="1.7277086" vertical-offset="0" max-vertical-offset="2720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/BtestsGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1525,7 +1504,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/TestsFolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="42" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.1968162" vertical-offset="969" max-vertical-offset="1853">
+        <state line="37" column="24" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.8364689" vertical-offset="51" max-vertical-offset="1819">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

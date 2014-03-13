@@ -4,7 +4,6 @@ import Models.MinesGraphModel;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Scanner;
 
 /**
  * Created by Denis on 13.03.14.
@@ -30,16 +29,8 @@ public class AtestsGenerator extends AbstractTestGenerator {
         this.maxM = maxM;
     }
 
-    @Override
-    protected void createOutputFromInput(Scanner inputScanner, PrintWriter outputWriter) throws Exception {
-        MinesGraphModel model = MinesGraphModel.fromMatrix(inputScanner);
-        writeList(model, outputWriter);
-        outputWriter.flush();
-        outputWriter.close();
-    }
-
     private void writeList(MinesGraphModel model, PrintWriter outputWriter) {
-        String output = InputOutputFormatter.modelToAOutput(model);
+        String output = InputOutputFormatter.modelToBInput(model);
         outputWriter.print(output);
 
     }
