@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/BtestsGenerator.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" afterPath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -1074,7 +1072,11 @@
       <created>1394692890111</created>
       <updated>1394692890111</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Test generator for problem B created">
+      <created>1394692916794</created>
+      <updated>1394692916794</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1120,7 +1122,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Checker for problem C created" />
     <MESSAGE value="ConnectionToVertex class created" />
     <MESSAGE value="way of keeping adjacent vertexes changed" />
     <MESSAGE value="getAdjacentVertexes  created" />
@@ -1145,7 +1146,8 @@
     <MESSAGE value="Test generator for problems A and B" />
     <MESSAGE value="Test generator for problems A and B&#10;" />
     <MESSAGE value="output generation removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="output generation removed" />
+    <MESSAGE value="Test generator for problem B created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test generator for problem B created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
