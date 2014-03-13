@@ -4,10 +4,7 @@
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/BtestsGenerator.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java" afterPath="$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java" afterPath="$PROJECT_DIR$/src/TestGenerators/AtestsGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" afterPath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/TestsFolder.java" afterPath="$PROJECT_DIR$/src/TestGenerators/TestsFolder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -1073,7 +1070,11 @@
       <created>1394671112431</created>
       <updated>1394671112431</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="output generation removed">
+      <created>1394692890111</created>
+      <updated>1394692890111</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1119,7 +1120,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="DepthFirstSearch class created&#10;" />
     <MESSAGE value="Checker for problem C created" />
     <MESSAGE value="ConnectionToVertex class created" />
     <MESSAGE value="way of keeping adjacent vertexes changed" />
@@ -1144,7 +1144,8 @@
     <MESSAGE value="J problem&#10;" />
     <MESSAGE value="Test generator for problems A and B" />
     <MESSAGE value="Test generator for problems A and B&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test generator for problems A and B&#10;" />
+    <MESSAGE value="output generation removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="output generation removed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

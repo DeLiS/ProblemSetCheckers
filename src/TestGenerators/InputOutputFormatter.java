@@ -29,7 +29,7 @@ public class InputOutputFormatter {
         return stringBuilder.toString();
     }
 
-    public static String modelToAOutput(MinesGraphModel model){
+    public static String modelToBInput(MinesGraphModel model){
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(model.getNumberOfRows());
         stringBuilder.append(SPACE);
