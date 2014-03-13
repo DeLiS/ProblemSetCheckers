@@ -18,6 +18,11 @@ public class InputOutputFormatter {
         stringBuilder.append(matrix.length);
         stringBuilder.append(SPACE);
         stringBuilder.append(matrix[0].length);
+        matrixToStringBuilder(matrix, stringBuilder);
+        return stringBuilder.toString();
+    }
+
+    private static void matrixToStringBuilder(int[][] matrix, StringBuilder stringBuilder) {
         for(int i = 0; i < matrix.length; ++i){
             stringBuilder.append(NEW_LINE);
             for(int j = 0; j < matrix[i].length; ++j){
@@ -27,7 +32,6 @@ public class InputOutputFormatter {
                 stringBuilder.append(matrix[i][j]);
             }
         }
-        return stringBuilder.toString();
     }
 
     public static String modelToBInput(MinesGraphModel model){
@@ -113,5 +117,54 @@ public class InputOutputFormatter {
             stringBuilder.append(queries[0][2]);
         }
         return stringBuilder.toString();
+    }
+
+    public static String getHInput(int numberOfCities, int riot, int[][] matrix) {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(numberOfCities);
+        stringBuilder.append(SPACE);
+        stringBuilder.append(riot);
+        matrixToStringBuilder(matrix, stringBuilder);
+        return stringBuilder.toString();
+    }
+
+    public static String getIInput(int k, int n, int[][] connections) {
+
+        int m = calcNumberOfConnections(connections);
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(k);
+        stringBuilder.append(SPACE);
+        stringBuilder.append(n);
+        stringBuilder.append(SPACE);
+        stringBuilder.append(m);
+        matrixToStringBuilderAsList(connections, stringBuilder);
+        return stringBuilder.toString();
+    }
+
+    private static int calcNumberOfConnections(int[][] connections) {
+        int res = 0;
+        for(int i = 0; i < connections.length; ++i){
+            for(int j = 0; j < connections[i].length; ++j){
+                if(connections[i][j] > 0){
+                    res++;
+                }
+            }
+        }
+        return res;
+    }
+
+    private static void matrixToStringBuilderAsList(int[][] connections, StringBuilder stringBuilder) {
+        for(int i = 0; i < connections.length; ++i){
+            for(int j = 0; j < connections[i].length; ++j){
+                if(connections[i][j] > 0){
+                    stringBuilder.append(NEW_LINE);
+                    stringBuilder.append(i);
+                    stringBuilder.append(SPACE);
+                    stringBuilder.append(j);
+                    stringBuilder.append(SPACE);
+                    stringBuilder.append(connections[i][j]);
+                }
+            }
+        }
     }
 }
