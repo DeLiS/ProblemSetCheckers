@@ -167,4 +167,14 @@ public class InputOutputFormatter {
             }
         }
     }
+
+    public static String getJInput(int n, int[][] matrix) {
+        int m = calcNumberOfConnections(matrix);
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(n);
+        stringBuilder.append(SPACE);
+        stringBuilder.append(m);
+        matrixToStringBuilderAsList(matrix, stringBuilder);
+        return stringBuilder.toString();
+    }
 }

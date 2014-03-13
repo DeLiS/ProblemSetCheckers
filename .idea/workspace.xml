@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/HTestsGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/ITestGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/JTestsGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" afterPath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/JTestsGenerator.java" afterPath="$PROJECT_DIR$/src/TestGenerators/JTestsGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -211,7 +209,7 @@
       <file leaf-file-name="InputOutputFormatter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="19" selection-start="5302" selection-end="5302" vertical-scroll-proportion="0.0" vertical-offset="1948" max-vertical-offset="2941">
+            <state line="177" column="40" selection-start="6291" selection-end="6291" vertical-scroll-proportion="0.0" vertical-offset="2356" max-vertical-offset="3111">
               <folding />
             </state>
           </provider>
@@ -253,7 +251,7 @@
       <file leaf-file-name="ITestGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/ITestGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="28" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="850">
+            <state line="24" column="5" selection-start="377" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -264,7 +262,7 @@
       <file leaf-file-name="JTestsGenerator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/JTestsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="203" selection-end="203" vertical-scroll-proportion="0.22835821" vertical-offset="0" max-vertical-offset="670">
+            <state line="21" column="59" selection-start="652" selection-end="652" vertical-scroll-proportion="0.53283584" vertical-offset="0" max-vertical-offset="816">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -347,8 +345,8 @@
         <option value="$PROJECT_DIR$/src/TestGenerators/GraphGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/HTestsGenerator.java" />
-        <option value="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/ITestGenerator.java" />
+        <option value="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/JTestsGenerator.java" />
       </list>
     </option>
@@ -514,7 +512,7 @@
       <recent name="A" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ITestGenerator">
+  <component name="RunManager" selected="Application.JTestsGenerator">
     <configuration default="false" name="MatrixGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestGenerators.MatrixGenerator" />
       <option name="VM_PARAMETERS" value="" />
@@ -1020,7 +1018,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="21">
+    <configuration default="false" name="JTestsGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestGenerators.JTestsGenerator" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Denis\Desktop\Задачи\Tests\J 10 100 100" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Projects" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="22">
       <item index="0" class="java.lang.String" itemvalue="Application.CheckerA" />
       <item index="1" class="java.lang.String" itemvalue="Application.CheckerB" />
       <item index="2" class="java.lang.String" itemvalue="Application.CheckerC" />
@@ -1042,6 +1056,7 @@
       <item index="18" class="java.lang.String" itemvalue="Application.GraphGenerator" />
       <item index="19" class="java.lang.String" itemvalue="Application.HTestsGenerator" />
       <item index="20" class="java.lang.String" itemvalue="Application.ITestGenerator" />
+      <item index="21" class="java.lang.String" itemvalue="Application.JTestsGenerator" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -1250,7 +1265,11 @@
       <created>1394698182245</created>
       <updated>1394698182245</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Test generator for problem H and I created&#10;">
+      <created>1394700186698</created>
+      <updated>1394700186698</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1296,7 +1315,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Graph search algorithms created" />
     <MESSAGE value="Search algorithms changed&#10;" />
     <MESSAGE value="Solution for problem E" />
     <MESSAGE value="Tests changed" />
@@ -1321,7 +1339,8 @@
     <MESSAGE value="Test generator for problem C and D created&#10;" />
     <MESSAGE value="Test generator for problem E and F created&#10;" />
     <MESSAGE value="Test generator for problem G created&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test generator for problem G created&#10;" />
+    <MESSAGE value="Test generator for problem H and I created&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test generator for problem H and I created&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1689,13 +1708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="19" selection-start="5302" selection-end="5302" vertical-scroll-proportion="0.0" vertical-offset="1948" max-vertical-offset="2941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/HTestsGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="5" selection-start="360" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
@@ -1705,9 +1717,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="40" selection-start="6291" selection-end="6291" vertical-scroll-proportion="0.0" vertical-offset="2356" max-vertical-offset="3111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/ITestGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="28" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="850">
+        <state line="24" column="5" selection-start="377" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1716,7 +1735,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/JTestsGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="203" selection-end="203" vertical-scroll-proportion="0.22835821" vertical-offset="0" max-vertical-offset="670">
+        <state line="21" column="59" selection-start="652" selection-end="652" vertical-scroll-proportion="0.53283584" vertical-offset="0" max-vertical-offset="816">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
