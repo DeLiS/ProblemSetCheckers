@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/CandDtestsGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGenerators/GraphGenerator.java" />
+      <change type="DELETED" beforePath="C:\Users\Denis\Desktop\Задачи\Projects\src\TestGenerators\CTestsGenerator.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -195,7 +197,7 @@
       <file leaf-file-name="BtestsGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/BtestsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+            <state line="26" column="5" selection-start="371" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,10 +205,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CTestsGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java">
+      <file leaf-file-name="CandDtestsGenerator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestGenerators/CandDtestsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="13" column="25" selection-start="347" selection-end="347" vertical-scroll-proportion="0.31982633" vertical-offset="0" max-vertical-offset="748">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestGenerators/GraphGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="22" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1190">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -232,10 +245,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestsFolder.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestsFolder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/TestsFolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="24" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.8364689" vertical-offset="51" max-vertical-offset="1819">
+            <state line="37" column="24" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1819">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,8 +274,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/C/in.txt" />
-        <option value="$PROJECT_DIR$/src/C/out.txt" />
         <option value="$PROJECT_DIR$/src/D/Checker.java" />
         <option value="$PROJECT_DIR$/src/D/in.txt" />
         <option value="$PROJECT_DIR$/src/D/out.txt" />
@@ -310,8 +321,10 @@
         <option value="$PROJECT_DIR$/src/Models/MinesGraphModel.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/AbstractTestGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/BtestsGenerator.java" />
-        <option value="$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/TestsFolder.java" />
+        <option value="$PROJECT_DIR$/src/TestGenerators/GraphGenerator.java" />
+        <option value="$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java" />
+        <option value="$PROJECT_DIR$/src/TestGenerators/CandDtestsGenerator.java" />
       </list>
     </option>
   </component>
@@ -476,7 +489,7 @@
       <recent name="A" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BtestsGenerator">
+  <component name="RunManager" selected="Application.CandDtestsGenerator">
     <configuration default="false" name="MatrixGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestGenerators.MatrixGenerator" />
       <option name="VM_PARAMETERS" value="" />
@@ -484,6 +497,22 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Projects" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GraphGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestGenerators.GraphGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -870,7 +899,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="14">
+    <configuration default="false" name="CandDtestsGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestGenerators.CandDtestsGenerator" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Denis\Desktop\Задачи\Tests\D 10 1000" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Projects" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="16">
       <item index="0" class="java.lang.String" itemvalue="Application.CheckerA" />
       <item index="1" class="java.lang.String" itemvalue="Application.CheckerB" />
       <item index="2" class="java.lang.String" itemvalue="Application.CheckerC" />
@@ -885,10 +930,13 @@
       <item index="11" class="java.lang.String" itemvalue="Application.AtestsGenerator" />
       <item index="12" class="java.lang.String" itemvalue="Application.MatrixGenerator" />
       <item index="13" class="java.lang.String" itemvalue="Application.BtestsGenerator" />
+      <item index="14" class="java.lang.String" itemvalue="Application.CandDtestsGenerator" />
+      <item index="15" class="java.lang.String" itemvalue="Application.GraphGenerator" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.MatrixGenerator" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.GraphGenerator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MatrixGenerator" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1076,12 +1124,16 @@
       <created>1394692916794</created>
       <updated>1394692916794</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Test generator for problem C created&#10;">
+      <created>1394692927496</created>
+      <updated>1394692927496</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1103,7 +1155,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1122,7 +1174,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="ConnectionToVertex class created" />
     <MESSAGE value="way of keeping adjacent vertexes changed" />
     <MESSAGE value="getAdjacentVertexes  created" />
     <MESSAGE value="Graph created" />
@@ -1147,7 +1198,8 @@
     <MESSAGE value="Test generator for problems A and B&#10;" />
     <MESSAGE value="output generation removed" />
     <MESSAGE value="Test generator for problem B created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test generator for problem B created" />
+    <MESSAGE value="Test generator for problem C created&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test generator for problem C created&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1162,11 +1214,6 @@
     <option name="showOnlyWarnings" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/A/out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/B/in.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="3" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
@@ -1487,27 +1534,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGenerators/BtestsGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGenerators/CTestsGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/TestsFolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="24" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.8364689" vertical-offset="51" max-vertical-offset="1819">
+        <state line="37" column="24" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1819">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/BtestsGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="371" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/GraphGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1190">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/CandDtestsGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="347" selection-end="347" vertical-scroll-proportion="0.31982633" vertical-offset="0" max-vertical-offset="748">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
