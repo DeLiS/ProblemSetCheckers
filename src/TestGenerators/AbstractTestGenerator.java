@@ -13,7 +13,7 @@ public abstract  class AbstractTestGenerator {
     private int testsCount;
     public AbstractTestGenerator(String path, int testsCount) throws IOException {
         this.testsCount = testsCount;
-        testsFolder = new TestsFolder(path, testsCount);
+        testsFolder = new TestsFolder(path, testsCount); //root folder for all tests
     }
 
     public void generate() throws Exception {
