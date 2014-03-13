@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" afterPath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/JTestsGenerator.java" afterPath="$PROJECT_DIR$/src/TestGenerators/JTestsGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -1269,7 +1267,11 @@
       <created>1394700186698</created>
       <updated>1394700186698</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Test generator for problem J created&#10;">
+      <created>1394700654127</created>
+      <updated>1394700654127</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1315,7 +1317,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Search algorithms changed&#10;" />
     <MESSAGE value="Solution for problem E" />
     <MESSAGE value="Tests changed" />
     <MESSAGE value="Main method for C checker added" />
@@ -1340,7 +1341,8 @@
     <MESSAGE value="Test generator for problem E and F created&#10;" />
     <MESSAGE value="Test generator for problem G created&#10;" />
     <MESSAGE value="Test generator for problem H and I created&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test generator for problem H and I created&#10;" />
+    <MESSAGE value="Test generator for problem J created&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test generator for problem J created&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
