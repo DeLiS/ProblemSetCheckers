@@ -98,4 +98,20 @@ public class InputOutputFormatter {
         }
         return k;
     }
+
+    public static String queriesToGInput(int numberOfChildren, int numberOfQueries, int[][] queries) {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(numberOfChildren);
+        stringBuilder.append(SPACE);
+        stringBuilder.append(numberOfQueries);
+        for(int i = 0;i < queries.length; ++i){
+            stringBuilder.append(NEW_LINE);
+            stringBuilder.append(queries[i][0]);
+            stringBuilder.append(SPACE);
+            stringBuilder.append(queries[i][1]);
+            stringBuilder.append(SPACE);
+            stringBuilder.append(queries[0][2]);
+        }
+        return stringBuilder.toString();
+    }
 }
