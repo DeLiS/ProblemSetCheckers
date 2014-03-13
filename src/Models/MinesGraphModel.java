@@ -12,8 +12,8 @@ public class MinesGraphModel {
     public static final String WRONG_NUMBER_OF_MINES = "Wrong number of mines";
     public static final String WRONG_MATRIX_SIZE = "Wrong matrix size";
     public static final String WRONG_MATRIX_VALUE = "Wrong matrix value";
-    private int n;
-    private int m;
+    private int numberOfRows;
+    private int numberOfColumns;
     private int numberOfMines;
     private int[][] matrix;
 
@@ -35,9 +35,11 @@ public class MinesGraphModel {
 
     public  List<int[]> getList(){
         List<int[]> result = new ArrayList<int[]>(numberOfMines);
-        for(int i = 0; i < n; ++i){
-            for(int j = 0; j < m; ++j){
-                result.add(new int[]{i,j});
+        for(int i = 0; i < numberOfRows; ++i){
+            for(int j = 0; j < numberOfColumns; ++j){
+                if(matrix[i][j] == 1){
+                    result.add(new int[]{i,j});
+                }
             }
         }
         return result;
@@ -76,8 +78,8 @@ public class MinesGraphModel {
     }
 
     private static void readMatrixAndCalcMines(MinesGraphModel model, Scanner input) throws Exception {
-        for(int i = 0; i < model.getNumberOfColumns(); ++i){
-            for(int j = 0; j < model.getNumberOfRows(); ++j){
+        for(int i = 0; i < model.getNumberOfRows(); ++i){
+            for(int j = 0; j < model.getNumberOfColumns(); ++j){
                 int value = input.nextInt();
                 checkMatrixValue(value);
                 if(value == 1){
@@ -97,18 +99,18 @@ public class MinesGraphModel {
     private static MinesGraphModel initModel(Scanner input) throws Exception {
         MinesGraphModel model = new MinesGraphModel();
         readMatrixSize(input, model);
-        checkMatrixSize(model.n, model.m);
+        checkMatrixSize(model.numberOfRows, model.numberOfColumns);
         createMatrix(model);
         return model;
     }
 
     private static void createMatrix(MinesGraphModel model) {
-        model.matrix = new int[model.getNumberOfColumns()][model.getNumberOfRows()];
+        model.matrix = new int[model.getNumberOfRows()][model.getNumberOfColumns()];
     }
 
     private static void readMatrixSize(Scanner input, MinesGraphModel model) {
-        model.n = input.nextInt();
-        model.m = input.nextInt();
+        model.numberOfRows = input.nextInt();
+        model.numberOfColumns = input.nextInt();
     }
 
     private static void checkMatrixSize(int n, int m) throws Exception {
@@ -149,11 +151,11 @@ public class MinesGraphModel {
     }
 
     public int getNumberOfRows() {
-        return m;
+        return numberOfRows;
     }
 
     public int getNumberOfColumns() {
-        return n;
+        return numberOfColumns;
     }
 
 
