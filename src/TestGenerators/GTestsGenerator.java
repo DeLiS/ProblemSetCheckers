@@ -65,7 +65,7 @@ public class GTestsGenerator extends AbstractTestGenerator {
             query[0] = random.nextInt(numberOfChildren);
             do{
                 query[1] = random.nextInt(numberOfChildren);
-            }while(query[1] == query[2]);
+            }while(query[0] == query[1]);
             changeSignsForCodingQuery(query);
         }
     }

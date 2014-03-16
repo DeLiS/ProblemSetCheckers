@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
+    <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="wrong query size fixed&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" afterPath="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -195,7 +195,7 @@
       <file leaf-file-name="GTestsGenerator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="51" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.5253256" vertical-offset="266" max-vertical-offset="1360">
+            <state line="61" column="31" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.45875543" vertical-offset="669" max-vertical-offset="1360">
               <folding />
             </state>
           </provider>
@@ -1303,7 +1303,11 @@
       <created>1395000032532</created>
       <updated>1395000032532</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="wrong query size fixed">
+      <created>1395000124652</created>
+      <updated>1395000124652</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1349,7 +1353,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Checker for problem D created" />
     <MESSAGE value="Graph search algorithms created&#10;" />
     <MESSAGE value="Vertex numeration changed from 1-N to 0-(N-1)" />
     <MESSAGE value="Graph get number of vertexes method created&#10;" />
@@ -1374,7 +1377,8 @@
     <MESSAGE value="Problem G: positive numbers from 1..N are now commands &quot;make firends&quot;, negative numbers from -N...-1 are now queries" />
     <MESSAGE value="query codes changed to enum" />
     <MESSAGE value="Test Generator for problem G now corresponds to the new coding of queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Generator for problem G now corresponds to the new coding of queries" />
+    <MESSAGE value="wrong query size fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrong query size fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1757,7 +1761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="51" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.5253256" vertical-offset="266" max-vertical-offset="1360">
+        <state line="61" column="31" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.45875543" vertical-offset="669" max-vertical-offset="1360">
           <folding />
         </state>
       </provider>
