@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="wrong query size fixed&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" afterPath="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" />
+    <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" afterPath="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -183,19 +183,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputOutputFormatter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="InputOutputFormatter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="40" selection-start="6291" selection-end="6291" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="3162">
+            <state line="114" column="48" selection-start="3983" selection-end="3983" vertical-scroll-proportion="0.28364688" vertical-offset="1691" max-vertical-offset="3077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GTestsGenerator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GTestsGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="31" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.45875543" vertical-offset="669" max-vertical-offset="1360">
+            <state line="69" column="9" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0" vertical-offset="669" max-vertical-offset="1360">
               <folding />
             </state>
           </provider>
@@ -332,10 +332,10 @@
         <option value="$PROJECT_DIR$/src/TestGenerators/GraphGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/HTestsGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/ITestGenerator.java" />
-        <option value="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/JTestsGenerator.java" />
         <option value="$PROJECT_DIR$/src/Models/Friendship.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" />
+        <option value="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
       </list>
     </option>
   </component>
@@ -1307,7 +1307,11 @@
       <created>1395000124652</created>
       <updated>1395000124652</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="wrong query size fixed">
+      <created>1395000168013</created>
+      <updated>1395000168013</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1707,13 +1711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="40" selection-start="6291" selection-end="6291" vertical-scroll-proportion="0.0" vertical-offset="2356" max-vertical-offset="3111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/ITestGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="5" selection-start="377" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
@@ -1761,7 +1758,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="31" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.45875543" vertical-offset="669" max-vertical-offset="1360">
+        <state line="69" column="9" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0" vertical-offset="669" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="48" selection-start="3983" selection-end="3983" vertical-scroll-proportion="0.28364688" vertical-offset="1691" max-vertical-offset="3077">
           <folding />
         </state>
       </provider>

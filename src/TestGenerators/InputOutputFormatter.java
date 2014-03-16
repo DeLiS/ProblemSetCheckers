@@ -113,8 +113,6 @@ public class InputOutputFormatter {
             stringBuilder.append(queries[i][0]);
             stringBuilder.append(SPACE);
             stringBuilder.append(queries[i][1]);
-            stringBuilder.append(SPACE);
-            stringBuilder.append(queries[0][2]);
         }
         return stringBuilder.toString();
     }
