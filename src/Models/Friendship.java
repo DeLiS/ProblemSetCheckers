@@ -38,18 +38,34 @@ public class Friendship {
     }
 
     private void handleQuery(Scanner input) throws Exception {
-        int type = input.nextInt();
         int firstChild = input.nextInt();
         int secondChild = input.nextInt();
+        int type = getTypeOfRequest(firstChild, secondChild);
         switch (type){
             case UNITE_CODE:
                 makeFriends(firstChild, secondChild);
                 break;
             case QUERY_CODE:
+                firstChild = fromNegativeChildNumberToPositiveZeroBasedIndex(firstChild);
+                secondChild = fromNegativeChildNumberToPositiveZeroBasedIndex(secondChild);
                 checkFriendship(firstChild, secondChild);
                 break;
             default:
                 throw new Exception(WRONG_INPUT);
+        }
+    }
+
+    private int fromNegativeChildNumberToPositiveZeroBasedIndex(int firstChild) {
+        firstChild = -firstChild;
+        --firstChild;
+        return firstChild;
+    }
+
+    private int getTypeOfRequest(int firstChild, int secondChild) {
+        if(firstChild < 0){
+            return QUERY_CODE;
+        }else{
+            return UNITE_CODE;
         }
     }
 
