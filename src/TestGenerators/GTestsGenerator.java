@@ -59,12 +59,12 @@ public class GTestsGenerator extends AbstractTestGenerator {
 
         if(pairs.size() > 0 && random.nextBoolean()){
             int[] pair = PairGenerator.getNextPair(random, pairs);
-            query[0] = pair[0];
-            query[1] = pair[1];
+            query[0] = pair[0] + 1;
+            query[1] = pair[1] + 1;
         }else{
-            query[0] = random.nextInt(numberOfChildren);
+            query[0] = random.nextInt(numberOfChildren) + 1;
             do{
-                query[1] = random.nextInt(numberOfChildren);
+                query[1] = random.nextInt(numberOfChildren) + 1;
             }while(query[0] == query[1]);
             changeSignsForCodingQuery(query);
         }
