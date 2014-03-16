@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="Essential code fixes">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/G/in.txt" afterPath="$PROJECT_DIR$/src/G/in.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -173,19 +174,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GraphGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestGenerators/GraphGenerator.java">
+      <file leaf-file-name="InputOutputFormatter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="850">
+            <state line="114" column="48" selection-start="3983" selection-end="3983" vertical-scroll-proportion="0.0" vertical-offset="1938" max-vertical-offset="3077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputOutputFormatter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
+      <file leaf-file-name="in.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/G/in.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="48" selection-start="3983" selection-end="3983" vertical-scroll-proportion="0.28364688" vertical-offset="1691" max-vertical-offset="3077">
+            <state line="11" column="5" selection-start="64" selection-end="64" vertical-scroll-proportion="0.27062228" vertical-offset="0" max-vertical-offset="691">
               <folding />
             </state>
           </provider>
@@ -194,7 +195,7 @@
       <file leaf-file-name="GTestsGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="9" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0" vertical-offset="669" max-vertical-offset="1360">
+            <state line="69" column="9" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -230,7 +231,7 @@
       <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/J/in.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="6" column="7" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -239,11 +240,8 @@
       <file leaf-file-name="Friendship.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/Friendship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="26" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1530">
-              <folding>
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-              </folding>
+            <state line="76" column="26" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="1564">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -251,7 +249,7 @@
       <file leaf-file-name="Checker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/G/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="26" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+            <state line="39" column="26" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -276,8 +274,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="DeLiSEs" />
         <option value="DeLiS" />
+        <option value="DeLiSEs" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -300,7 +298,6 @@
         <option value="$PROJECT_DIR$/src/F/out.txt" />
         <option value="$PROJECT_DIR$/src/F/Checker.java" />
         <option value="$PROJECT_DIR$/src/Models/DisjointSetUnion.java" />
-        <option value="$PROJECT_DIR$/src/G/in.txt" />
         <option value="$PROJECT_DIR$/src/G/Checker.java" />
         <option value="$PROJECT_DIR$/src/G/out.txt" />
         <option value="$PROJECT_DIR$/src/Models/Edge.java" />
@@ -336,6 +333,7 @@
         <option value="$PROJECT_DIR$/src/Models/Friendship.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
+        <option value="$PROJECT_DIR$/src/G/in.txt" />
       </list>
     </option>
   </component>
@@ -371,7 +369,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -479,6 +476,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -518,7 +516,7 @@
       <recent name="A" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GTestsGenerator">
+  <component name="RunManager" selected="Application.CheckerG">
     <configuration default="false" name="MatrixGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestGenerators.MatrixGenerator" />
       <option name="VM_PARAMETERS" value="" />
@@ -585,6 +583,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -610,19 +621,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1315,7 +1313,11 @@
       <created>1395000204755</created>
       <updated>1395000204755</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Essential code fixes">
+      <created>1395000577968</created>
+      <updated>1395000577968</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1333,7 +1335,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292797" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1341,12 +1343,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1462,11 +1464,6 @@
     <entry file="file://$PROJECT_DIR$/src/G/out.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="1" selection-start="15" selection-end="15" vertical-scroll-proportion="0.17221418" vertical-offset="0" max-vertical-offset="691" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/G/in.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="81" selection-end="81" vertical-scroll-proportion="0.27062228" vertical-offset="0" max-vertical-offset="691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/DepthFirstSearch.java">
@@ -1748,10 +1745,7 @@
     <entry file="file://$PROJECT_DIR$/src/Models/Friendship.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="26" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1530">
-          <folding>
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1771,7 +1765,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="48" selection-start="3983" selection-end="3983" vertical-scroll-proportion="0.28364688" vertical-offset="1691" max-vertical-offset="3077">
+        <state line="114" column="48" selection-start="3983" selection-end="3983" vertical-scroll-proportion="0.0" vertical-offset="1938" max-vertical-offset="3077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/G/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="64" selection-end="64" vertical-scroll-proportion="0.27062228" vertical-offset="0" max-vertical-offset="691">
           <folding />
         </state>
       </provider>
