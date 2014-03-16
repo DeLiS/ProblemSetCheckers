@@ -8,12 +8,12 @@ import java.util.Scanner;
  * Created by Denis on 12.03.14.
  */
 public class Friendship {
+    enum QueryType {Unite, CheckFriendship}
 
     public static final String WRONG_INPUT = "Wrong input";
     private static final int YES_CODE = 1;
     private static final int NO_CODE = 0;
-    private final int UNITE_CODE = 10;
-    private final int QUERY_CODE = 20;
+
 
     private final DisjointSetUnion dsu;
 
@@ -40,12 +40,12 @@ public class Friendship {
     private void handleQuery(Scanner input) throws Exception {
         int firstChild = input.nextInt();
         int secondChild = input.nextInt();
-        int type = getTypeOfRequest(firstChild, secondChild);
+        QueryType type = getTypeOfRequest(firstChild, secondChild);
         switch (type){
-            case UNITE_CODE:
+            case Unite:
                 makeFriends(firstChild, secondChild);
                 break;
-            case QUERY_CODE:
+            case CheckFriendship:
                 firstChild = fromNegativeChildNumberToPositiveZeroBasedIndex(firstChild);
                 secondChild = fromNegativeChildNumberToPositiveZeroBasedIndex(secondChild);
                 checkFriendship(firstChild, secondChild);
@@ -61,12 +61,14 @@ public class Friendship {
         return firstChild;
     }
 
-    private int getTypeOfRequest(int firstChild, int secondChild) {
-        if(firstChild < 0){
-            return QUERY_CODE;
-        }else{
-            return UNITE_CODE;
+    private QueryType getTypeOfRequest(int firstChild, int secondChild) throws IllegalArgumentException {
+        if(firstChild < 0 && secondChild < 0){
+            return QueryType.CheckFriendship;
         }
+        if(firstChild > 0 && secondChild > 0){
+            return QueryType.Unite;
+        }
+        throw new IllegalArgumentException("Wrong signs");
     }
 
     private void checkFriendship(int firstChild, int secondChild) {
