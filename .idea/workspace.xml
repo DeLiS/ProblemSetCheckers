@@ -195,7 +195,7 @@
       <file leaf-file-name="GTestsGenerator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="54" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.39693192" vertical-offset="198" max-vertical-offset="1343">
+            <state line="40" column="51" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.5253256" vertical-offset="266" max-vertical-offset="1360">
               <folding />
             </state>
           </provider>
@@ -518,7 +518,7 @@
       <recent name="A" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckerJ">
+  <component name="RunManager" selected="Application.GTestsGenerator">
     <configuration default="false" name="MatrixGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestGenerators.MatrixGenerator" />
       <option name="VM_PARAMETERS" value="" />
@@ -1299,7 +1299,11 @@
       <created>1394999711110</created>
       <updated>1394999711110</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Test Generator for problem G now corresponds to the new coding of queries">
+      <created>1395000032532</created>
+      <updated>1395000032532</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1325,7 +1329,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1345,7 +1349,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Main method for C checker added" />
     <MESSAGE value="Checker for problem D created" />
     <MESSAGE value="Graph search algorithms created&#10;" />
     <MESSAGE value="Vertex numeration changed from 1-N to 0-(N-1)" />
@@ -1370,7 +1373,8 @@
     <MESSAGE value="Test generator for problem J created&#10;" />
     <MESSAGE value="Problem G: positive numbers from 1..N are now commands &quot;make firends&quot;, negative numbers from -N...-1 are now queries" />
     <MESSAGE value="query codes changed to enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="query codes changed to enum" />
+    <MESSAGE value="Test Generator for problem G now corresponds to the new coding of queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Generator for problem G now corresponds to the new coding of queries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1753,7 +1757,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="54" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.39693192" vertical-offset="198" max-vertical-offset="1343">
+        <state line="40" column="51" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.5253256" vertical-offset="266" max-vertical-offset="1360">
           <folding />
         </state>
       </provider>

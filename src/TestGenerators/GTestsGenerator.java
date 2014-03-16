@@ -11,6 +11,7 @@ import java.util.Random;
 public class GTestsGenerator extends AbstractTestGenerator {
     public static final int MAKE_FRIENDS_COMMAND = 10;
     public static final int QUERY_FRIENDSHIP = 20;
+    public static final int QUERY_SIZE = 2;
     private final int maxNumberOfChildren;
     private final int maxNumberOfQueries;
     private final Random random = new Random(System.currentTimeMillis());
@@ -37,7 +38,7 @@ public class GTestsGenerator extends AbstractTestGenerator {
 
         int numberOfChildren = random.nextInt(maxNumberOfChildren-1) + 2;
         int numberOfQueries = random.nextInt(maxNumberOfQueries) + 1;
-        int[][] queries = new int[numberOfQueries][3];
+        int[][] queries = new int[numberOfQueries][QUERY_SIZE];
         createQueries(queries, numberOfChildren);
         String input = InputOutputFormatter.queriesToGInput(numberOfChildren, numberOfQueries, queries);
         inputWriter.print(input);
