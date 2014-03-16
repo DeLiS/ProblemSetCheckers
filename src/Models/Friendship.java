@@ -43,6 +43,8 @@ public class Friendship {
         QueryType type = getTypeOfRequest(firstChild, secondChild);
         switch (type){
             case Unite:
+                --firstChild; // 1.. N -> 0..(N-1)
+                --secondChild;
                 makeFriends(firstChild, secondChild);
                 break;
             case CheckFriendship:
