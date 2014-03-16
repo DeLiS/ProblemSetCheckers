@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="Problem G: positive numbers from 1..N are now commands &quot;make firends&quot;, negative numbers from -N...-1 are now queries&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Friendship.java" afterPath="$PROJECT_DIR$/src/Models/Friendship.java" />
+    <list default="true" id="d4b449ac-b91d-4c78-a970-9a710a321a50" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" afterPath="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projects.iws" />
@@ -192,19 +192,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FtestsGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestGenerators/FtestsGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="324" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="935">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GTestsGenerator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GTestsGenerator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="5" selection-start="503" selection-end="917" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1326">
+            <state line="39" column="54" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.39693192" vertical-offset="198" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -246,14 +237,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Friendship.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Friendship.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/Friendship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="50" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.48897412" vertical-offset="306" max-vertical-offset="1530">
+            <state line="76" column="26" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1530">
               <folding>
                 <element signature="e#434#435#0" expanded="true" />
                 <element signature="e#464#465#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Checker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/G/Checker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="26" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -330,12 +330,12 @@
         <option value="$PROJECT_DIR$/src/TestGenerators/ETestGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/FtestsGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/GraphGenerator.java" />
-        <option value="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/HTestsGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/ITestGenerator.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/InputOutputFormatter.java" />
         <option value="$PROJECT_DIR$/src/TestGenerators/JTestsGenerator.java" />
         <option value="$PROJECT_DIR$/src/Models/Friendship.java" />
+        <option value="$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java" />
       </list>
     </option>
   </component>
@@ -456,6 +456,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="G" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1277,7 +1295,11 @@
       <created>1394999459952</created>
       <updated>1394999459952</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="query codes changed to enum">
+      <created>1394999711110</created>
+      <updated>1394999711110</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1323,7 +1345,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Tests changed" />
     <MESSAGE value="Main method for C checker added" />
     <MESSAGE value="Checker for problem D created" />
     <MESSAGE value="Graph search algorithms created&#10;" />
@@ -1348,7 +1369,8 @@
     <MESSAGE value="Test generator for problem H and I created&#10;" />
     <MESSAGE value="Test generator for problem J created&#10;" />
     <MESSAGE value="Problem G: positive numbers from 1..N are now commands &quot;make firends&quot;, negative numbers from -N...-1 are now queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem G: positive numbers from 1..N are now commands &quot;make firends&quot;, negative numbers from -N...-1 are now queries" />
+    <MESSAGE value="query codes changed to enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="query codes changed to enum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1457,11 +1479,6 @@
     <entry file="file://$PROJECT_DIR$/src/A/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="13" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/G/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="241" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Edge.java">
@@ -1661,13 +1678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="503" selection-end="917" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGenerators/FtestsGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="5" selection-start="324" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
@@ -1726,11 +1736,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Friendship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="50" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.48897412" vertical-offset="306" max-vertical-offset="1530">
+        <state line="76" column="26" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1530">
           <folding>
             <element signature="e#434#435#0" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/G/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="26" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestGenerators/GTestsGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="54" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.39693192" vertical-offset="198" max-vertical-offset="1343">
+          <folding />
         </state>
       </provider>
     </entry>

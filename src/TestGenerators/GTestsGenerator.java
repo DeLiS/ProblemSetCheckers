@@ -57,16 +57,20 @@ public class GTestsGenerator extends AbstractTestGenerator {
 
 
         if(pairs.size() > 0 && random.nextBoolean()){
-            query[0] = MAKE_FRIENDS_COMMAND;
             int[] pair = PairGenerator.getNextPair(random, pairs);
-            query[1] = pair[0];
-            query[2] = pair[1];
+            query[0] = pair[0];
+            query[1] = pair[1];
         }else{
-            query[0] = QUERY_FRIENDSHIP;
-            query[1] = random.nextInt(numberOfChildren);
+            query[0] = random.nextInt(numberOfChildren);
             do{
-                query[2] = random.nextInt(numberOfChildren);
+                query[1] = random.nextInt(numberOfChildren);
             }while(query[1] == query[2]);
+            changeSignsForCodingQuery(query);
         }
+    }
+
+    private void changeSignsForCodingQuery(int[] query) {
+        query[0] = -query[0];
+        query[1] = -query[1];
     }
 }
