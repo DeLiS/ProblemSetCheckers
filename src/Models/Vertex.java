@@ -44,6 +44,11 @@ public class Vertex implements Comparable<Vertex> {
         if(this == otherObject){
             return true;
         }
+        
+        if(otherObject == null){
+            return false;
+        }
+        
         if(this.getClass() != otherObject.getClass()){
             return false;
         }
